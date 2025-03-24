@@ -79,32 +79,6 @@ Segui questi passaggi per configurare il progetto localmente:
     yarn dev
     ```
 
-## Risoluzione dei problemi comuni
-
-1. **Errore di permessi storage**
-
-    ```bash
-    php artisan cache:clear
-    php artisan config:clear
-    chmod -R 777 storage bootstrap/cache
-    ```
-
-2. **Errore di compilazione assets**
-
-    ```bash
-    npm clean-install
-    npm run build
-    ```
-
-3. **Errore di database**
-    ```bash
-    php artisan migrate:fresh --seed
-    ```
-
-## Supporto
-
-Per problemi o domande, apri una issue nel repository del progetto.
-
 ## Licenza
 
 Questo progetto è rilasciato sotto licenza MIT.
